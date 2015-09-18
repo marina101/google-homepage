@@ -1,0 +1,94 @@
+* {
+  font-family: Arial;
+}
+
+input[type=submit] {
+  margin-top: 20px;
+  width: 150px;
+  height: 35px;
+}
+input[type=submit]:first-of-type{
+  margin-left: 520px;
+
+}
+
+
+a {
+  font-family: Arial;
+  font-size: 14px;
+}
+
+
+img {
+  align-content: center;
+  margin-top: 179px;
+  margin-left: 40%;
+  height: 100px;
+  width: 275px;
+}
+
+p {
+
+  margin-left: 43%
+}
+
+#canada {
+  margin-top: -20px;
+  padding-top: ;0;
+  margin-left: 770px;
+  color: blue;
+  font-family: Arial;
+  
+}
+
+form {
+  margin-left: 375px;
+  
+}
+
+input {
+  width: 550px;
+  height: 30px;
+}
+
+#french {
+  color: black;
+}
+
+p a {
+  color: blue;
+}
+
+#header a {
+  color: black;
+}
+
+#footer {
+  background-color: lightgray;
+  position: relative;
+  bottom: 0;
+  height: 40px;
+  width: 100%;  
+}
+
+a{
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+#header {
+  float: right;
+  color: black;
+}
+
+#footerleft {
+  float: left;
+}
+
+#footerright {
+  float: right;
+}
