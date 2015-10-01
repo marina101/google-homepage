@@ -2,6 +2,12 @@
   font-family: Arial;
 }
 
+li {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
 input[type=submit] {
   margin-top: 20px;
   width: 150px;
@@ -17,6 +23,7 @@ a {
   font-family: Arial;
   font-size: 14px;
 }
+
 
 
 img {
@@ -66,9 +73,14 @@ p a {
 #footer {
   background-color: lightgray;
   position: relative;
-  bottom: 0;
+  clear: both;
+  bottom: 0px;
   height: 40px;
   width: 100%;  
+  margin-bottom: 0px auto;
+  padding-bottom: 0px auto;
+  display: inline-block;
+  margin-top: 135px;
 }
 
 a{
@@ -78,6 +90,19 @@ a{
 
 a:hover{
   text-decoration: underline;
+}
+
+#signin {
+  
+
+  height: 20px;
+
+  padding: 8px;
+  color: white;
+}
+
+a #signin{
+  color: white;
 }
 
 #header {
